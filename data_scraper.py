@@ -236,7 +236,3 @@ def get_data(ticker_list, pkl=True, csv=False):
         print "------------------------------"
 
 
-
-listy = ['AAPL', 'COHR', 'AMAT']
-get_data(listy, pkl=True, csv=True)
-#df = pd.read_pickle('./quarterly_fundamentals')
