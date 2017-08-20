@@ -25,6 +25,7 @@ Documentation
 -------------
 
 .. code:: python
+
   import data_scraper as ds
 
   #initialize list of tickers to get data for
