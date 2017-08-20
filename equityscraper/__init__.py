@@ -1,5 +1,4 @@
 #*********************************************************************
- # File Name: data_scraper.py
  # Author: James Whiteley IV
  # Creation Date: 2017-12-14
  # Description: Web scraper that gets equity data from Morningstar.com, Nasdaq.com,
