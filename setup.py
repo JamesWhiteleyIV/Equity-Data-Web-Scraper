@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
         name='equityscraper',
-        version='0.1',
+        version='0.1.1',
         description='Web scraper that stores fundamental stock data, analyst estimates, and earnings surprises as .pkl and/or .csv',
         url='https://github.com/JamesWhiteleyIV/Equity-Data-Web-Scraper',
         author='James Whiteley IV',
