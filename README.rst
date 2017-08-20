@@ -24,7 +24,7 @@ From git repo:
 Documentation
 -------------
 
-```python
+.. code:: python
 import data_scraper as ds
 
 #initialize list of tickers to get data for
@@ -33,7 +33,6 @@ tickers = ['OSUR', 'COHR', 'ENTG', 'HSKA', 'FIVE', 'MDSO', 'LOPE', 'MBUU', 'OLLI
 #this will store all the data as .pkl and .csv files in ./equity data [date]/
 ds.get_data(tickers, pkl=True, csv=True)
 
-```
 
 
 Thats it!  Please be sure to keep the time.sleep(1) between scrapes so that the web host doesn't ban
