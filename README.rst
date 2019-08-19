@@ -26,13 +26,13 @@ Documentation
 
 .. code:: python
 
-  import equityscraper as scrape
+  import equityscraper
 
   #initialize list of tickers to get data for
   tickers = ['OSUR', 'COHR', 'ENTG', 'HSKA', 'FIVE', 'MDSO', 'LOPE', 'MBUU', 'OLLI', 'TRU']
 
   #this will store all the data as .pkl and .csv files in ./equity data [date]/
-  scrape.get_data(tickers, pkl=True, csv=True)
+  equityscraper.get_data(tickers, pkl=True, csv=True)
 
 
 
